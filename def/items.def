@@ -147,7 +147,7 @@ entityDef item_health_shard
 	"inherit"				"item_health"
 	"editor_usage"			"#str_107320"
 	"inv_name"				"#str_107320"
-	"inv_health"			"200"
+	"inv_health"			"50"
 	"inv_bonushealth"		    "20"
 	"snd_acquire"			"pickup_health_shard"
 	"editor_ignore"			"0"
@@ -158,9 +158,9 @@ entityDef item_health_shard_mp
 {
 	"inherit"				"item_health"
 	
-	"editor_usage"			"#str_107320"
-	"inv_name"				"#str_107320"
-	"inv_health"			"200"
+	"editor_usage"			"#str_107330"
+	"inv_name"				"#str_107330"
+	"inv_health"			"99"
 	"inv_bonushealth"			"50"
 	"snd_acquire"			"pickup_health_shard"
 	"model"					"models/pick_ups/mp_pickups/mp_healthb.lwo"
@@ -351,8 +351,10 @@ entityDef item_armor_small_mp
 {
 	"inherit"				"item_armor_small"
 	"inv_armor"				"50"
+	"editor_usage"			"#str_107325"
+	"inv_name"				"#str_107325"
 	"model"					"models\pick_ups\sp_pickups\sp_armor_strogg.lwo"
-	"editor_ignore"			"1"
+	"editor_ignore"			"0"
 	"fx_idle"				"effects/mp/armor_yellow"
 	"inv_icon"				"gfx/guis/hud/icons/item_armorsmall_colored"
 	"mtr_simple_icon"		"simpleicons/item_armorsmall_colored"
