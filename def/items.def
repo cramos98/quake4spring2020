@@ -141,22 +141,28 @@ entityDef item_health
 	"editor_ignore"			"1"
 }
 
+//Health Upgrade
 entityDef item_health_shard
 {
 	"inherit"				"item_health"
 	"editor_usage"			"#str_107320"
 	"inv_name"				"#str_107320"
-	"inv_bonushealth"		"5"
+	"inv_health"			"200"
+	"inv_bonushealth"		    "20"
 	"snd_acquire"			"pickup_health_shard"
 	"editor_ignore"			"0"
 }
 
-
+//Large Health Upgrade
 entityDef item_health_shard_mp
 {
-	"inherit"				"item_health_shard"
-	"inherit2"				"item_triggersize_MP"
+	"inherit"				"item_health"
 	
+	"editor_usage"			"#str_107320"
+	"inv_name"				"#str_107320"
+	"inv_health"			"200"
+	"inv_bonushealth"			"50"
+	"snd_acquire"			"pickup_health_shard"
 	"model"					"models/pick_ups/mp_pickups/mp_healthb.lwo"
 	"editor_ignore"			"1"
 	"fx_idle"				"effects/mp/health_green"
@@ -186,7 +192,7 @@ entityDef item_health_oneHP_silent
 entityDef item_health_small
 {
 	"inherit"				"item_health"
-	"model"					"models/pick_ups/sp_pickups/sp_small_health.lwo"
+	"model"					"models/items/armor/armor_large_sp.lwo"	
 	"editor_usage"			"#str_107321"
 	"inv_name"				"#str_107321"
 	"inv_health"			"50"
@@ -194,6 +200,7 @@ entityDef item_health_small
 	"inv_armor"				"50"
 	"snd_acquire"			"pickup_health_small"
 	"editor_ignore"			"0"
+	"skin"					"skins/items/armor/base_sp"
 }
 
 
@@ -213,7 +220,7 @@ entityDef item_health_small_mp
 entityDef item_health_large
 {
 	"inherit"				"item_health"
-	"model"					"models/pick_ups/sp_pickups/sp_big_health.lwo"
+	"model"					"models/items/armor/armor.lwo"
 	"editor_usage"			"#str_107322"
 	//"inv_name"			"Large Health Pack"
 	"inv_name"				"#str_107322"
@@ -275,12 +282,13 @@ entityDef item_armor
 	"editor_ignore"			"1"
 }
 
+//Armor Upgrade
 entityDef item_armor_shard
 {
 	"inherit"				"item_armor"
 	"editor_usage"			"#str_107324"
 	"inv_name"				"#str_107324"
-	"inv_armor"				"5"
+	"inv_armor"				"15"
 	"model"					"models/items/armor/shard.lwo"
 	"snd_acquire"			"pickup_armor_shard"
 	"editor_ignore"			"0"
@@ -290,6 +298,7 @@ entityDef item_armor_shard
 entityDef item_armor_small
 {
 	"inherit"				"item_armor"
+	"model"					"models\pick_ups\sp_pickups\sp_armor_strogg.lwo"
 	"editor_usage"			"#str_107325"
 	"inv_name"				"#str_107325"
 	"inv_armor"				"25"
@@ -301,10 +310,12 @@ entityDef item_armor_small
 entityDef item_armor_large
 {
 	"inherit"				"item_armor"
+	"model"					"models\pick_ups\sp_pickups\sp_armor_strogg.lwo"
 	"editor_usage"			"#str_107326"
 	"inv_name"				"#str_107326"
 	"inv_armor"				"100"
 	"skin"					"skins/items/armor/base_red"
+	"fx_idle"				"effects/mp/armor_red"
 	"editor_ignore"			"0"
 }
 
@@ -340,7 +351,7 @@ entityDef item_armor_small_mp
 {
 	"inherit"				"item_armor_small"
 	"inv_armor"				"50"
-
+	"model"					"models\pick_ups\sp_pickups\sp_armor_strogg.lwo"
 	"editor_ignore"			"1"
 	"fx_idle"				"effects/mp/armor_yellow"
 	"inv_icon"				"gfx/guis/hud/icons/item_armorsmall_colored"
@@ -398,7 +409,7 @@ entityDef item_armor_small_sp
 	
 	"editor_usage"			"#str_107328"
 	"inv_name"				"#str_107325"
-	"inv_armor"				"50"
+	"inv_armor"				"25"
 	"skin"					"skins/items/armor/base_sp"
 	"editor_ignore"			"0"
 	"nodrop"					"1"

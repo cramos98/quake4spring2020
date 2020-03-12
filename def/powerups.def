@@ -35,7 +35,7 @@ entityDef powerup
 	
 	"spawnclass"			"idItemPowerup"
 	"respawn"				"120"
-	"time"					"10"
+	"time"					"99"
 	"nopulse"				"1"
 	"spin"					"1"
 	"mins"					"-16 -16 0"

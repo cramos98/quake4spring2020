@@ -634,6 +634,16 @@ entityDef player_marine
 	"copy_joint shoulders"					"shoulders"
 	"copy_joint legs_channel"				"legs_channel"
 
+	// Quad Damage Effects
+	"fx_quaddamage_crawl"		"effects/mp/quaddamage_player.fx"
+	"fx_quaddamage"			"effects/mp/quaddamage_chest.fx"
+	"mtr_quaddamage_overlay"	"models/quaddamage_overlay"
+	"snd_quaddamage_idle"		"quad_hum"
+
+		// Haste Effects
+	"fx_haste"			"effects/mp/haste_player.fx"
+	"mtr_haste_overlay"		"models/haste_overlay"
+
 	// weapon slots
 	"def_weapon0"						"weapon_blaster"
 	"weapon0_best"						"1"			// whether weapon should be chosen when out of ammo
@@ -721,8 +731,8 @@ entityDef player_marine
 	"respawn_delay"						"1.7"		// minimum delay for respawning after death
 
 	// stats
-	"health"						"100"
-	"maxhealth"						"100"
+	"health"						"99"
+	"maxhealth"						"699"
 	"armor"							"0"
 	"maxarmor"						"100"
 	"minRestoreHealth0"					"20"		// Minimum health when loading a game for skill level 0
