@@ -2,7 +2,7 @@
 QUAKE 4 METROID PRIME MOD
 -------------------------
 How to Use the Mod:
-1. Download Zip of Deliverables Branch
+1. Download zip of Metroid_Deliverables Branch
 2. Extract zip and move to Quake 4 Folder where the q4base folder and Quake4.exe reside.
 3. Modify Quake4.exe properties and add "-disconnect +set fs_game q4metroid" to the end of the "target:".
 IMPORTANT NOTE:
