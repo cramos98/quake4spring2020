@@ -71,3 +71,4 @@ Personal Deliverables
   - Health Upgrade: item_health_shard changed to item_health_upgrade. Increase health by 50. Grant 20 Bonus Health.
   - Large Health Upgrade: item_health_shard_mp changed to item_health_upgrade_large. Increase Health by 99 like in Metroid. Also grants 50 bonus Health.
   - Armor Upgrade: item_armor_shard changed to item_armor_upgrade. Increase Armor by 15.
+  - Max Ammo Upgrades not implemented since metroid weapons do not have ammo.
