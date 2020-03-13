@@ -142,7 +142,7 @@ entityDef item_health
 }
 
 //Health Upgrade
-entityDef item_health_shard
+entityDef item_health_upgrade
 {
 	"inherit"				"item_health"
 	"editor_usage"			"#str_107320"
@@ -154,7 +154,7 @@ entityDef item_health_shard
 }
 
 //Large Health Upgrade
-entityDef item_health_shard_mp
+entityDef item_health_upgrade_large
 {
 	"inherit"				"item_health"
 	
@@ -189,7 +189,7 @@ entityDef item_health_oneHP_silent
 }
 
 //Fusion Suit
-entityDef item_health_small
+entityDef item_fusion_suit
 {
 	"inherit"				"item_health"
 	"model"					"models/items/armor/armor_large_sp.lwo"	
@@ -217,7 +217,7 @@ entityDef item_health_small_mp
 }
 
 //Gravity Suit
-entityDef item_health_large
+entityDef item_gravity_suit
 {
 	"inherit"				"item_health"
 	"model"					"models/items/armor/armor.lwo"
@@ -283,7 +283,7 @@ entityDef item_armor
 }
 
 //Armor Upgrade
-entityDef item_armor_shard
+entityDef item_armor_upgrade
 {
 	"inherit"				"item_armor"
 	"editor_usage"			"#str_107324"
@@ -295,7 +295,7 @@ entityDef item_armor_shard
 }
 
 //Power Suit
-entityDef item_armor_small
+entityDef item_power_suit
 {
 	"inherit"				"item_armor"
 	"model"					"models\pick_ups\sp_pickups\sp_armor_strogg.lwo"
@@ -307,7 +307,7 @@ entityDef item_armor_small
 }
 
 //Phazon Suit
-entityDef item_armor_large
+entityDef item_phazon_suit
 {
 	"inherit"				"item_armor"
 	"model"					"models\pick_ups\sp_pickups\sp_armor_strogg.lwo"
@@ -347,12 +347,12 @@ entityDef item_armor_shard_mp
 }
 
 //Varia Suit
-entityDef item_armor_small_mp
+entityDef item_varia_suit
 {
-	"inherit"				"item_armor_small"
+	"inherit"				"item_power_suit"
 	"inv_armor"				"50"
-	"editor_usage"			"#str_107325"
-	"inv_name"				"#str_107325"
+	"editor_usage"			"#str_107331"
+	"inv_name"				"#str_107331"
 	"model"					"models\pick_ups\sp_pickups\sp_armor_strogg.lwo"
 	"editor_ignore"			"0"
 	"fx_idle"				"effects/mp/armor_yellow"

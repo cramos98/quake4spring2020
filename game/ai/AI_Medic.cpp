@@ -46,7 +46,7 @@ void rvAIMedic::InitSpawnArgsVariables( void )
 	//NOTE: these shouldn't change from spawn values - maybe they don't need to be variables and saved/loaded?
 	isTech = spawnArgs.GetBool( "tech" );
 	noAutoHeal = spawnArgs.GetBool( "noAutoHeal" );
-	healAmt = 200;//spawnArgs.GetInt( "healAmt", "25" );
+	healAmt = 27;//spawnArgs.GetInt( "healAmt", "25" );
 	healObeyTether = spawnArgs.GetBool( "healObeyTether" );
 	patientRange = spawnArgs.GetFloat( "patientRange", "640" );
 	buddyRange = spawnArgs.GetFloat( "buddyRange", "640" );

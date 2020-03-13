@@ -734,7 +734,7 @@ entityDef player_marine
 	"health"						"99"
 	"maxhealth"						"699"
 	"armor"							"0"
-	"maxarmor"						"100"
+	"maxarmor"						"300"
 	"minRestoreHealth0"					"20"		// Minimum health when loading a game for skill level 0
 	"minRestoreHealth1"					"10"		// Minimum health when loading a game for skill level 1
 
@@ -757,7 +757,7 @@ entityDef player_marine
 	"max_ammo_shotgun"					"50"
 	"max_ammo_hyperblaster"					"400"
 	"max_ammo_napalmgun"					"40"
-	"max_ammo_rocketlauncher"				"40"
+	"max_ammo_rocketlauncher"				"50"
 	"max_ammo_grenadelauncher"				"50"
 	"max_ammo_lightninggun"					"400"
 	"max_ammo_dmg"						"25"
